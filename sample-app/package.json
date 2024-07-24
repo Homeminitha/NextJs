@@ -10,17 +10,17 @@
     "export": "next build && next export"
   },
   "dependencies": {
+    "next": "^14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "^14.2.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.5.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
-    "typescript": "^5",
-    "@netlify/plugin-nextjs": "^4.41.3",
+    "typescript": "^5"
   }
 }
